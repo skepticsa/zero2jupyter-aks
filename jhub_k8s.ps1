@@ -1,8 +1,14 @@
 ﻿<#
 
-prereqs, run:
+As preresquisite: 
+1. you needd to run the following command to generate a public/private pair.
 
-ssh-keygen -f ssh-key-jhubcluster
+    ssh-keygen -f ssh-key-jhubcluster
+
+2. If you use Windows P{oweshell ISE, do not forget to change the current directory to the folder that contains this ps1 file.
+
+
+3. Set the variables to your preferred values, e.g. region, vnet name, etc.
 
 #>
 
